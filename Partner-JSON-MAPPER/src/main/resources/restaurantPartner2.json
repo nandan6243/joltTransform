@@ -1,0 +1,41 @@
+{
+  "resturant_id": 23,
+  "city": "Lucknow",
+  "area": "Mahanagar",
+  "areaPostalCode": 226018,
+  "costForTwoMsg": "300",
+  "restaurant-time-info": {
+    "day_of_week": "Monday",
+    "open": "10:00 AM",
+    "close": "9:00 PM"
+  },
+  "address": {
+  	"name": "RITZ",
+    "title": "RITZ,Near ABC Park",
+    "message": "Good Restraunt near Mahangar"
+  },
+  "menu": [
+    {
+      "id": "1",
+      "name": "kabab",
+      "category": "starter",
+      "description": "veg panner kabab ",
+      "recommended": "yes",
+      "inStock": "yes",
+      "isVeg": "yes",
+      "enabled": "yes",
+      "price": "50",
+      "addons": {
+        "group_id": "23",
+        "group_name": "Starter",
+        "choices": {
+          "id": "1",
+          "name": "AB",
+          "price": "40",
+          "inStock": "yes",
+          "inVeg": "yes"
+        }
+      }
+    }
+  ]
+}

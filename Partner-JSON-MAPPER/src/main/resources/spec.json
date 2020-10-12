@@ -1,0 +1,35 @@
+[
+  {
+    "operation": "shift",
+    "spec": {
+      "name": "restaurantName",
+      "area": "area",
+      "areaPostalCode": "restaurantAreaPostalCode",
+      "city": "restaurantCity",
+      "costForTwoMsg": "costForTwoMsg",
+      "restaurant-time-info": {
+        "day_of_week": "restaurantTimeInfo.restaurantTimings",
+        "open": "restaurantTimeInfo.restOpen",
+        "close": "restaurantTimeInfo.restClose"
+      },
+      "address": {
+        "title": "address.name",
+        "message": "address.addressDescription"
+      },
+      "menu": {
+        "*": {
+          "id": "menuList.[&1].dishId",
+          "name": "menuList.[&1].dishName",
+          "category": "menuList.[&1].dishCategory",
+          "description": "menuList.[&1].dishDescription",
+          "recommended": "menuList.[&1].dishRecommended",
+          "inStock": "menuList.[&1].dishInStock",
+          "isVeg": "menuList.[&1].dishIsVeg",
+          "price": "menuList.[&1].dishPrice",
+          "enabled": "menuList.[&1].dishEnabled",
+          "popular": "menuList.[&1].popular"
+        }
+      }
+    }
+  }
+]
